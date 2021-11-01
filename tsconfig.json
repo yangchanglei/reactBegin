@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "baseUrl": ".",
+        "module": "esnext",
+        "target": "ES5",
+        "lib": ["es6","DOM"],
+        "sourceMap": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "rootDir": ".",
+        "forceConsistentCasingInFileNames": false,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        //不完全严格类型检测
+        "strict": false,
+        "noImplicitAny": false, //是否在有表达式或声明上有any时报错
+        "importHelpers": true,
+        "strictNullChecks": true,
+        "allowSyntheticDefaultImports": true,
+        "noUnusedLocals": true
+    },
+    "include": [
+       "src/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "build",
+        "dist",
+        "scripts",
+        "acceptance-tests",
+        "webpack",
+        "jest",
+        "src/setupTests.ts",
+        "*.js"
+    ]
+}

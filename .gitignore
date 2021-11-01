@@ -1,0 +1,6 @@
+//配置git忽略文件
+
+//通用输出文件
+dist
+
+node_modules
